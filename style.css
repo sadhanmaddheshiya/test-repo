@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+boby{
+    padding: 0px;
+    margin: 0px;
+}
+.image{
+        background-attachment: fixed;
+        background-size: cover;
+}   
+
+.section-light{
+        background-color: #f4f4f4;
+        color: #0f0f0f;
+
+}
+
+.section-dark{
+        background-color: black;
+        color: white;
+}   
+
+.first-image{
+    background-image: url(1.jpg);
+    min-height:500px;
+}
+
+.second-image{
+    background-image: url(2.jpg);
+    min-height:500px;
+    
+}
+
+.third-image{
+    background-image: url(3.jpg);
+    min-height:500px;
+    
+}
+.fourth-image{
+    background-image: url(my\ image.jpg);
+    min-height:500px;
+    
+}
+
+.text-content{
+        position: relative;
+        top: 200px;
+        left: 400px;
+        font-size: xx-large;
+        text-transform: uppercase;
+        background-color: darkred;
+        padding: 20px;
+        color: bisque;
+        width: 30%;
+        text-align: center;
+        opacity: 0.9;
+        
+}
+#pupob{
+    position: absolute;
+    top: 0;
+    font-size: x-large;
+    color: #f4f4f4;
+    background-color: rgb(119, 119, 126);
+    width: 20%;
+    height: 10%;
+
+
+
+}
